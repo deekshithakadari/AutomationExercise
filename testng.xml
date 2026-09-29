@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="Listeners.TestListener"/>
+    </listeners>
+    
+  <test thread-count="5" name="Test">
+  
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <!-- <class name="MainBaseClass.BaseClassMAIN"/>  
+      <class name="automationexercise.testcases.TestCase_1_RegisterUser"/> 
+      <class name="automationexercise.testcases.TestCase_2"/>  
+      <class name="automationexercise.testcases.TestCase_3"/>  
+      <class name="automationexercise.testcases.TestCase_4"/>  
+      <class name="automationexercise.testcases.TestCase_5"/>
+      <class name="automationexercise.testcases.TestCase_6"/>
+      <class name="automationexercise.testcases.TestCase_7"/>
+      <class name="automationexercise.testcases.TestCase_8"/>
+      <class name="automationexercise.testcases.TestCase_9"/>
+      <class name="automationexercise.testcases.TestCase_10"/>
+      <class name="automationexercise.testcases.TestCase_11"/>
+      <class name="automationexercise.testcases.TestCase_12"/>
+      <class name="automationexercise.testcases.TestCase_13"/>
+      <class name="automationexercise.testcases.TestCase_14"/>
+      <class name="automationexercise.testcases.TestCase_15"/>
+      <class name="automationexercise.testcases.TestCase_16"/>
+      <class name="automationexercise.testcases.TestCase_17"/>
+      <class name="automationexercise.testcases.TestCase_18"/>
+      <class name="automationexercise.testcases.TestCase_19"/> 
+      <class name="automationexercise.testcases.TestCase_20"/>
+      <class name="automationexercise.testcases.TestCase_21"/>
+      <class name="automationexercise.testcases.TestCase_22"/>
+      <class name="automationexercise.testcases.TestCase_23"/>
+      <class name="automationexercise.testcases.TestCase_24"/>
+      <class name="automationexercise.testcases.TestCase_25"/> 
+      <class name="automationexercise.testcases.TestCase_26"/>
+      -->  
+      
+      <class name="automationexercise.testcases.TestCase_2"/>
+      
+    </classes>
+  </test> 
+</suite>

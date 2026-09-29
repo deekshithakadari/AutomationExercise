@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ParallelTestsSuite"
+       parallel="tests"
+       thread-count="2">
+
+    <listeners>
+        <listener class-name="Listeners.TestListener"/>
+    </listeners>
+
+    <test name="Registration and Login Tests">
+
+        <classes>
+            <class name="automationexercise.testcases.TestCase_1_RegisterUser"/>
+            <class name="automationexercise.testcases.TestCase_2"/>
+        </classes>
+
+    </test>
+
+
+    <test name="Login Validation Tests">
+
+        <classes>
+            <class name="automationexercise.testcases.TestCase_4"/>
+            <class name="automationexercise.testcases.TestCase_5"/>
+        </classes>
+
+    </test>
+
+</suite>

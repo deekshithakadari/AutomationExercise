@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MultipleTestSuite">
+
+    <listeners>
+        <listener class-name="Listeners.TestListener"/>
+    </listeners>
+
+    <!-- TEST BLOCK 1 -->
+    <test name="Test1">
+
+        <classes>
+
+            <class name="automationexercise.testcases.TestCase_1_RegisterUser"/>
+
+            <class name="automationexercise.testcases.TestCase_2"/>
+
+        </classes>
+
+    </test>
+
+
+    <!-- TEST BLOCK 2 -->
+    <test name="Test2">
+
+        <classes>
+
+            <class name="automationexercise.testcases.TestCase_3"/>
+
+            <class name="automationexercise.testcases.TestCase_4"/>
+
+        </classes>
+
+    </test>
+
+</suite>
